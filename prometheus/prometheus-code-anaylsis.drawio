@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T14:48:35.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="p38a4M26ViEbwGakgHY4" version="20.3.0" type="github"><diagram id="3qjVC7K0kvCGZqGHpVnB" name="Page-1">ddHBEoIgEADQr+GOUE6dzerSyUNnRjZhBl0HabS+Ph0wZawLs7xdWGYhPKuHixWtuqEEQxiVA+Enwthxl47rBC8PKUs8VFZLTyso9BsC0qBPLaGLCh2icbqNscSmgdJFJqzFPi57oIm7tqKCDRSlMFu9a+mU18OeLn4FXam5c0JDphZzcYBOCYn9inhOeGYRnY/qIQMzzW6eiz93/pP9PsxC434cGIPl7nETfRDPPw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-14T05:28:53.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="SJY4mAOkkcgCs5dRUmx1" version="20.3.0" type="github">
+  <diagram id="3qjVC7K0kvCGZqGHpVnB" name="Page-1">
+    <mxGraphModel dx="1426" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QG0Zua-6IjBdlOGHf7ix-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QG0Zua-6IjBdlOGHf7ix-3" target="QG0Zua-6IjBdlOGHf7ix-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QG0Zua-6IjBdlOGHf7ix-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QG0Zua-6IjBdlOGHf7ix-3" target="QG0Zua-6IjBdlOGHf7ix-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QG0Zua-6IjBdlOGHf7ix-3" value="Storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QG0Zua-6IjBdlOGHf7ix-4" value="Appendable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QG0Zua-6IjBdlOGHf7ix-5" value="SampleAndChunkQueryable" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
