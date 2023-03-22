@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T23:30:09.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.10" etag="Lqlw57n6dyaLeAGZNJ5k" type="github"><diagram name="Page-1" id="yXMUuwS_kHCdWLO_fU8T">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-22T23:42:21.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="saxGaveHqQYMy4u4W9Dp" version="21.0.10" type="github">
+  <diagram name="Page-1" id="yXMUuwS_kHCdWLO_fU8T">
+    <mxGraphModel dx="465" dy="288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="1030" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-2" value="Timeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-4" value="the first time, telemetrygen pod is created, &lt;br&gt;no ip is attaced" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.4;base=20;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-5" value="t0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-6" value="processor watch pod add event, save pod info into cache, &lt;br&gt;but no pod ip info" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.4;base=20;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-7" value="t1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="260" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-9" value="what happened in k8s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-10" value="what happened in k8sattributes processor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="340" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-11" value="telemetrygen pod is running,&lt;br&gt;ip is attached,&lt;br&gt;start to emit traces" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;base=21;position2=0.46;" vertex="1" parent="1">
+          <mxGeometry x="410" y="200" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-12" value="t2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-13" value="processor received traces data,&amp;nbsp;&lt;br&gt;start process resource,&lt;br&gt;but can not find pod meta through pod ip" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.36;base=20;direction=west;position2=0.43;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-14" value="t3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-16" value="processor watch pod update event, &lt;br&gt;save pod info into cache,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;has pod ip info" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;base=20;direction=west;position2=0.46;" vertex="1" parent="1">
+          <mxGeometry x="730" y="280" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-17" value="t4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="260" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
