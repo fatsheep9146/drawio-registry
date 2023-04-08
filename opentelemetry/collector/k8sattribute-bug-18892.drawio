@@ -1,85 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T01:38:17.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZteMlAldzQ2KKy2SQyGB" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-08T06:41:25.774Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="35ytDESk8HhsH3TvRbhY" version="21.1.5" type="github">
   <diagram name="Page-1" id="yXMUuwS_kHCdWLO_fU8T">
-    <mxGraphModel dx="658" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="909" dy="563" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="280" as="sourcePoint" />
             <mxPoint x="1090" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-2" value="Timeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-2" value="Timeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="260" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-4" value="&amp;nbsp;telemetrygen pod starts creating, &lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;no ip is attaced&lt;/b&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.4;base=20;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-4" value="&amp;nbsp;telemetrygen pod starts creating, &lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;no ip is attaced&lt;/b&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.4;base=20;" parent="1" vertex="1">
           <mxGeometry x="160" y="200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-5" value="t0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-5" value="t0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="280" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzNX1caz8K1Fp2sgaAPx-6" target="IzNX1caz8K1Fp2sgaAPx-20">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IzNX1caz8K1Fp2sgaAPx-6" target="IzNX1caz8K1Fp2sgaAPx-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-6" value="&lt;i&gt;addOrUpdatePod&lt;/i&gt;&lt;br&gt;&lt;br&gt;watch pod &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;add&lt;/font&gt;&lt;/b&gt; event, save info into cache, &lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;but without pod ip info&lt;/font&gt;&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.46;base=20;direction=west;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-6" value="&lt;i&gt;addOrUpdatePod&lt;/i&gt;&lt;br&gt;&lt;br&gt;watch pod &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;add&lt;/font&gt;&lt;/b&gt; event, save info into cache, &lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;but without pod ip info&lt;/font&gt;&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.46;base=20;direction=west;" parent="1" vertex="1">
           <mxGeometry x="270" y="280" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-7" value="t1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-7" value="t1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="260" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-9" value="what happened in k8s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-9" value="what happened in k8s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="210" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-10" value="what happened in k8sattributes processor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="320" width="130" height="30" as="geometry" />
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-10" value="what happened in k8sattributes processor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="360" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-11" value="telemetrygen pod &lt;br&gt;is running,&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;b&gt;ip is attached,&lt;br&gt;start to emit traces&lt;/b&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;base=21;position2=0.46;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-11" value="telemetrygen pod &lt;br&gt;is running,&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;b&gt;ip is attached,&lt;br&gt;start to emit traces&lt;/b&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;base=21;position2=0.46;" parent="1" vertex="1">
           <mxGeometry x="410" y="200" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-12" value="t2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-12" value="t2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="280" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-13" value="&lt;i&gt;processResource&lt;/i&gt;&lt;br&gt;&lt;br&gt;received trace datas,&amp;nbsp;&lt;br&gt;processed resource,&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;but can not find pod meta through pod ip&lt;/font&gt;&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.36;base=20;direction=west;position2=0.43;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-13" value="&lt;i&gt;processResource&lt;/i&gt;&lt;br&gt;&lt;br&gt;received trace datas,&amp;nbsp;&lt;br&gt;processed resource,&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;but can not find pod meta through pod ip&lt;/font&gt;&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.36;base=20;direction=west;position2=0.43;" parent="1" vertex="1">
           <mxGeometry x="550" y="280" width="150" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-14" value="t3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-14" value="t3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="260" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IzNX1caz8K1Fp2sgaAPx-16" target="IzNX1caz8K1Fp2sgaAPx-21">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IzNX1caz8K1Fp2sgaAPx-16" target="IzNX1caz8K1Fp2sgaAPx-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-16" value="&lt;i&gt;addOrUpdatePod&lt;/i&gt;&lt;br&gt;&lt;br&gt;watch pod &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;update&lt;/font&gt;&lt;/b&gt; event, &lt;br&gt;save info into cache,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;b&gt;with pod ip info&lt;/b&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;base=20;direction=west;position2=0.46;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-16" value="&lt;i&gt;addOrUpdatePod&lt;/i&gt;&lt;br&gt;&lt;br&gt;watch pod &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;update&lt;/font&gt;&lt;/b&gt; event, &lt;br&gt;save info into cache,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;b&gt;with pod ip info&lt;/b&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.38;base=20;direction=west;position2=0.46;" parent="1" vertex="1">
           <mxGeometry x="730" y="280" width="140" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-17" value="t4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-17" value="t4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="770" y="260" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-18" value="&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;processResource&lt;br&gt;&lt;/i&gt;&lt;br&gt;received traces data,&amp;nbsp;&lt;br&gt;processed resource,&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;b&gt;can find pod meta through pod ip&lt;/b&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.36;base=20;direction=west;position2=0.43;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-18" value="&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;processResource&lt;br&gt;&lt;/i&gt;&lt;br&gt;received traces data,&amp;nbsp;&lt;br&gt;processed resource,&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;&lt;b&gt;can find pod meta through pod ip&lt;/b&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.36;base=20;direction=west;position2=0.43;" parent="1" vertex="1">
           <mxGeometry x="900" y="280" width="150" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-19" value="t5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-19" value="t5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="950" y="260" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="440" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.529;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IzNX1caz8K1Fp2sgaAPx-20" target="IzNX1caz8K1Fp2sgaAPx-13">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.529;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IzNX1caz8K1Fp2sgaAPx-20" target="IzNX1caz8K1Fp2sgaAPx-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IzNX1caz8K1Fp2sgaAPx-21" target="IzNX1caz8K1Fp2sgaAPx-18">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IzNX1caz8K1Fp2sgaAPx-21" target="IzNX1caz8K1Fp2sgaAPx-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-21" value="PodUID: xxxxx&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Address: &quot;10.244.0.6&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-21" value="PodUID: xxxxx&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Address: &quot;10.244.0.6&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="440" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-22" value="cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-22" value="cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="475" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-23" value="PodUID: xxxxx&lt;br&gt;Address: null" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-23" value="PodUID: xxxxx&lt;br&gt;Address: null" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="475" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IzNX1caz8K1Fp2sgaAPx-28" value="cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IzNX1caz8K1Fp2sgaAPx-28" value="cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="470" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
