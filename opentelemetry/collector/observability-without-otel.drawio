@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2023-05-17T14:31:04.644Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="18umykMRBDqZ9msvh65N" version="21.3.2" type="github">
+  <diagram name="Page-1" id="Zx1RMfWQpHrX46SovbmR">
+    <mxGraphModel dx="596" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="320" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-3" value="App" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#CC6600;strokeWidth=1;" edge="1" parent="1" source="e2X0GY4_sPd95hM0Dr_v-4" target="e2X0GY4_sPd95hM0Dr_v-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-4" value="&lt;font color=&quot;#cc6600&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;prometheus&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;metric sdk&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC6600;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e2X0GY4_sPd95hM0Dr_v-5" target="e2X0GY4_sPd95hM0Dr_v-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-5" value="&lt;font color=&quot;#007fff&quot;&gt;jaeger&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;trace sdk&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-6" value="kubernetes cluster" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#007FFF;" edge="1" parent="1" source="e2X0GY4_sPd95hM0Dr_v-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-7" value="&lt;font color=&quot;#007fff&quot;&gt;&amp;nbsp; &amp;nbsp; jaeger&lt;br&gt;&amp;nbsp; &amp;nbsp;agent&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="348.99999999999994" y="300" width="84.79" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="466.33" y="240" width="40.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-17" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#cc6600&quot;&gt;prometheus format metric&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="166.39" y="247.5" width="25.21" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-19" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="304.78999999999996" y="232.5" width="25.21" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-20" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#cc6600&quot;&gt;prometheus&amp;nbsp;&lt;br&gt;server&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="500.33" y="245" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.jaegertracing.io/img/jaeger-icon-color.png;" vertex="1" parent="1">
+          <mxGeometry x="166.39" y="305" width="26.33" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.jaegertracing.io/img/jaeger-icon-color.png;" vertex="1" parent="1">
+          <mxGeometry x="350" y="305" width="26.33" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-24" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;jaeger&lt;br&gt;format span&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="263" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-26" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.jaegertracing.io/img/jaeger-icon-color.png;" vertex="1" parent="1">
+          <mxGeometry x="470" y="298.23" width="36.66" height="41.77" as="geometry" />
+        </mxCell>
+        <mxCell id="e2X0GY4_sPd95hM0Dr_v-28" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;jaeger&lt;br&gt;server&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="490" y="304.12" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
