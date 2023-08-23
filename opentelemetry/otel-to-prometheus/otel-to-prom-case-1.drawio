@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T11:03:41.804Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XByR_GbMWkMazCC_99cw" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-23T11:05:01.499Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="qQLXcW2Nk2tEE1tKdy18" version="21.6.9" type="github">
   <diagram name="Page-1" id="tYIL3FMBxJXXDgF-OUKn">
-    <mxGraphModel dx="992" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="945" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="IS09PTrQX9iY2Xv57lhg-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC6600;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="200" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="IS09PTrQX9iY2Xv57lhg-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;" parent="1" vertex="1">
+        <mxCell id="IS09PTrQX9iY2Xv57lhg-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="160" y="240" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IS09PTrQX9iY2Xv57lhg-4" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;app&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;" parent="1" vertex="1">
@@ -22,10 +22,10 @@
         <mxCell id="IS09PTrQX9iY2Xv57lhg-5" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;prometheus server&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC6600;fillColor=#CC6600;" parent="1" vertex="1">
           <mxGeometry x="440" y="200" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IS09PTrQX9iY2Xv57lhg-6" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;opentelemetry go sdk&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;fillColor=#3399FF;" parent="1" vertex="1">
+        <mxCell id="IS09PTrQX9iY2Xv57lhg-6" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;opentelemetry go sdk&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="160" y="240" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IS09PTrQX9iY2Xv57lhg-7" value="&lt;font color=&quot;#cc6600&quot;&gt;&lt;b&gt;prometheus&lt;br&gt;reader&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CC6600;" parent="1" vertex="1">
+        <mxCell id="IS09PTrQX9iY2Xv57lhg-7" value="&lt;b style=&quot;&quot;&gt;prometheus&lt;br&gt;reader&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="200" y="270" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IS09PTrQX9iY2Xv57lhg-9" value="&lt;b&gt;&lt;font color=&quot;#cc6600&quot;&gt;prometheus proto&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
