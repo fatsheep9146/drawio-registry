@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T07:16:52.053Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="XTR04NOvgj6negWd8Ys7" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-24T07:39:07.278Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qxNS-JOKsSP2r0bzCycE" version="22.1.3" type="github">
   <diagram name="Page-1" id="2pDJMrnjvmodRHbMjU3U">
     <mxGraphModel dx="733" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,11 +37,8 @@
         <mxCell id="_JCsfICxKdZBbKCJ_87l-6" value="prometheus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="610.44" y="370" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_JCsfICxKdZBbKCJ_87l-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_JCsfICxKdZBbKCJ_87l-7" target="_JCsfICxKdZBbKCJ_87l-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_JCsfICxKdZBbKCJ_87l-7" value="otlp receiver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="289.4" width="50" height="100.6" as="geometry" />
+        <mxCell id="_JCsfICxKdZBbKCJ_87l-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="289.4" width="140" height="100.6" as="geometry" />
         </mxCell>
         <mxCell id="_JCsfICxKdZBbKCJ_87l-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://coralogix.com/wp-content/uploads/2022/02/opentelemetry-icon-color-1.png;" vertex="1" parent="1">
           <mxGeometry x="325" y="350" width="30" height="30" as="geometry" />
@@ -57,17 +54,20 @@
         <mxCell id="_JCsfICxKdZBbKCJ_87l-16" value="OTEL Collector&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="295" y="376" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_JCsfICxKdZBbKCJ_87l-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_JCsfICxKdZBbKCJ_87l-18" target="_JCsfICxKdZBbKCJ_87l-5">
+        <mxCell id="_JCsfICxKdZBbKCJ_87l-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_JCsfICxKdZBbKCJ_87l-18" target="_JCsfICxKdZBbKCJ_87l-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_JCsfICxKdZBbKCJ_87l-18" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;scrape_configs:&lt;br&gt;&amp;nbsp; &amp;nbsp;...&lt;br&gt;otlp:&lt;br&gt;&amp;nbsp; mapped_resource_attributes:&lt;br&gt;&amp;nbsp; - service.instance.id&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=12;align=left;" vertex="1" parent="1">
           <mxGeometry x="495" y="420" width="145" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_JCsfICxKdZBbKCJ_87l-20" value="add mapped&lt;br&gt;labels" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="515" y="309.7" width="85" height="60" as="geometry" />
+          <mxGeometry x="520" y="309.7" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_JCsfICxKdZBbKCJ_87l-23" value="mapping happens&lt;br&gt;on prometheus side" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=10;size=40;position=0.5;position2=0.67;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="480" y="228.89999999999998" width="120" height="80.8" as="geometry" />
+          <mxGeometry x="470" y="228.89999999999998" width="120" height="80.8" as="geometry" />
+        </mxCell>
+        <mxCell id="_JCsfICxKdZBbKCJ_87l-26" value="OTLP&lt;br&gt;receiver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450.00000000000006" y="319.6" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
