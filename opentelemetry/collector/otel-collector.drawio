@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T11:25:20.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Rzu1OHry-XDTAaQHTU2K" version="20.3.0" type="github"><diagram id="CGxlpqMEDFHNc0mByJ-z" name="Page-1">zZTJTsMwEEC/JkekJIZSrg0FVFEJkQOCS2XFk9iSE0eOs7RfzwQ7m6pKlBOXyPNmvD2P4pEo7541LfleMZBe6LPOI49eGD7crvDbg6MFqzCwINOCWTQDsTiBg76jtWBQLQqNUtKIcgkTVRSQmAWjWqt2WZYqudy1pBmcgTih8px+CGa4pes7f+IvIDI+7Bz4LpPTodiBilOm2hkiW49EWiljR3kXgezdDV7svKcL2fFgGgrzmwm7r3Z/OMmAZ3FzuH+F9+pzdxPaVRoqa3dhFJmK7E2rBsVrd3RzHHxoVRcM+iV9j2xaLgzEJU36bIsNgIybXGIU4DAVUkZKKo0xg5TWEk+6cVuCNtBdvEswGsLOApWD0UcscRNuB8uuq8Ihbqc3wiLL+Ox91o5R1xbZuPRkDgdO3hUiyZnICnQjUMz/NLj+o8ARXmEQw6nNf3KzfwXZfgM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-12-13T05:28:33.781Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="pUPYnKKsL32ES7YyWNL5" version="22.1.8" type="github">
+  <diagram id="CGxlpqMEDFHNc0mByJ-z" name="Page-1">
+    <mxGraphModel dx="1026" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L-RXgSW_XbWUT7fv2A1X-2" value="collector.CollectorSettings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="JZwM_zl1hgSv_7LeRsYJ-2" value="otelcol.ConfigProvider" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="400" y="220" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JZwM_zl1hgSv_7LeRsYJ-3" value="service.Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="120" y="200" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="L-RXgSW_XbWUT7fv2A1X-1" value="otelcol.Factories" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-RXgSW_XbWUT7fv2A1X-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="550" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="L-RXgSW_XbWUT7fv2A1X-5" value="otelcol.Collector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
